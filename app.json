@@ -1,6 +1,8 @@
 {
   "pages": [
+    "pages/button/button",
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/text/text"
   ]
 }

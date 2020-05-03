@@ -1,0 +1,16 @@
+<!--pages/text/text.wxml-->
+<!-- <text>pages/text/text.wxml</text> -->
+
+<!-- 2.selectable:true -->
+<!-- 默认情况下text文本长按是不能选中的 -->
+<text selectable="{{true}}">Hello\n</text>
+<text selectable>Hello\n</text>
+
+<!-- 3.space：决定文本空格大小 -->
+<text>hello p\n</text>
+<text space="nbsp">hello p\n</text>
+<text space="emsp">hello p\n</text>
+<text space="ensp">hello p\n</text>
+
+<!-- 4.decode 解码文本 -->
+<text decode>5 &gt; 3</text>
