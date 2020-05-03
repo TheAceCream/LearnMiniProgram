@@ -1,0 +1,27 @@
+<!--pages/input/input.wxml-->
+<input/>
+
+<!-- 2.input的默认值 -->
+<input value="哈哈哈"/>
+
+<!-- 3.type 决定键盘类型 (英文字母+其他符号)
+    text : 文本输入键盘
+    number：数字键盘
+    idcard：身份证键盘
+    digit： 带小数点数字键盘
+ -->
+<input type="number"/>
+
+<!-- 4.password:暗文 -->
+<input password/>
+
+<!-- 5.placeholder:占位文字 -->
+<input placeholder="占位"/>
+
+<!-- 6.更改手机键盘右下角文本 confirm-type 很多-->
+<input confirm-type="search" />
+
+<!-- 7.input 绑定事件 -->
+<input bindinput="handleInput"
+       bindfocus="handleFocus"
+       bindblur="handleBlur"/>
