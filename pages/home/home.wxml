@@ -1,5 +1,2 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello World</text>
-<button size="mini">按钮</button>
-<view>1.知识点1</view>
-<view>红红火火恍恍惚惚</view>
+<text class="title">首页</text>
